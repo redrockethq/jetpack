@@ -13,7 +13,7 @@ describe('Queue', function () {
     });
 
     it('should have no items', function () {
-      var queue = require('../../lib/core/queue');
+      var queue = require('.././queue');
 
       expect(queue).to.have.property('items');
       expect(queue.items.length).to.be.at.least(0);
@@ -129,7 +129,7 @@ describe('Queue', function () {
  * @returns {*|exports}
  */
 function setupQueue() {
-  var queue = require('../../lib/core/queue');
+  var queue = require('.././queue');
   queue.clear();
   return queue;
 }

@@ -1,6 +1,6 @@
 'use strict';
 
-var controllers = require('../lib/apis/controllers');
+var controllers = require('../lib/controllers');
 
 function Router(app) {
 
